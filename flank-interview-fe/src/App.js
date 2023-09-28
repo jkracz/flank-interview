@@ -29,8 +29,8 @@ function App() {
 
             <ReactMarkdown rehypePlugins={[rehypeRaw]} className="markdown" children={objective} />
 
-            <h2>Selected State</h2>
-            <pre>{JSON.stringify(selected, null, 2)}</pre>
+            {/* <h2>Selected State</h2>
+            <pre>{JSON.stringify(selected, null, 2)}</pre> */}
         </ThinTemplate>
     );
 }
