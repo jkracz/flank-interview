@@ -1,0 +1,22 @@
+@import "./../variables";
+
+.filter-button {
+    padding: $medium-padding;
+    background-color: $white-color;
+    border-radius: $medium-border-radius;
+    border: 1px solid;
+    min-width: 70px;
+
+    &:hover {
+        cursor: pointer;
+    }
+    &.filter-button-selected {
+        background-color: $flank-green;
+        color: $white-color;
+    }
+}
+
+.filter-selection {
+    display: flex;
+    gap: $small-gap;
+}
